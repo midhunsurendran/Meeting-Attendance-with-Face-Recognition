@@ -1,7 +1,8 @@
 import os
 from datetime import datetime
 
-path = "C:/Users" '''Please add the path were you want your attendance log to be created'''
+path = input('Enter the location where you want to create the attendance log file: ')
+'''Please add the path were you want your attendance log to be created'''
 
 
 def makeFileAttend():
