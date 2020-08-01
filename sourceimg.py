@@ -3,7 +3,8 @@ import cv2
 import numpy as np
 import face_recognition as fr
 
-path = "C:/Users" '''Please add the path from were you have the photos of 
+path = input("Add path to folder where sample photos of the person is stored\nEnter the path: ")
+'''Please add the path from were you have the photos of 
 student or people you want to recognise, also not those photo's name should be of that person(eg alex.jpg)'''
 name = []
 images = []
